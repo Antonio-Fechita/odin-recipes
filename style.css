@@ -1,0 +1,73 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    background-color: rgb(243, 247, 191);
+    color:rgb(226, 53, 0);
+    text-align: center;
+}
+
+h1{
+    font-weight:700;
+    padding-bottom: 25px;
+}
+
+
+
+img{
+    border: 2px solid rgb(167, 28, 28);
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: auto;
+}
+
+body > img{
+    width: 40%;
+}
+
+li > img{
+    width: 60%;
+}
+
+
+ul li{
+    text-align: left;
+}
+
+.description,
+.ingredients,
+.steps{
+    width: 60%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.description p,
+.ingredients p,
+.steps p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.description img,
+.ingredients img,
+.steps img{
+    margin-left: 20%;
+    
+}
+
+
+
+a{
+    text-decoration:underline;
+    text-decoration-color: rgb(255, 72, 0);
+    color: inherit;
+}
+
+
+
+
+
