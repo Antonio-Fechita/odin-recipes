@@ -62,12 +62,29 @@ ul li{
 
 
 a{
-    text-decoration:underline;
+    text-decoration:none;
     text-decoration-color: rgb(255, 72, 0);
     color: inherit;
 }
 
 
+.recipes{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.recipes li{
+    margin: 20px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.recipes li a{
+    display: inline-block;
+    padding: 20px;
+    border: 2px rgb(226, 53, 0) dotted;
+    background-color: rgb(243, 248, 177);
+}
 
 
 
